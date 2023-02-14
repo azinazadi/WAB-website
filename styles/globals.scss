@@ -339,7 +339,7 @@ span.line {
               both;
 }
 
-body.scrolled {
+header.scrolled {
   .reveal:not(.kontakt) {
     animation: hhide 500ms cubic-bezier(.5, -0.01, 0, 1.01) 0ms 1 normal both;
   }
@@ -351,7 +351,7 @@ body.scrolled {
 .kontakt.btn{
   position: fixed;
   z-index: 1000;
-  body:not(.initial) & {
+  header:not(.initial) & {
     --reveal-animation: shadow;
     --reveal-animation-direction: normal;
   }

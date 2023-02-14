@@ -25,8 +25,6 @@ class InlineStylesHead extends Head {
 export default function Document() {
     return (
         <Html lang="de">
-            <a href="#main" id="skipToMain">Skip To main content</a>
-
             <InlineStylesHead>
                 <meta charSet="utf-8"/>
                 <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(lb)}}/>
@@ -35,7 +33,9 @@ export default function Document() {
                 {/*<script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(businessSchema)}}/>*/}
 
             </InlineStylesHead>
-            <body className="initial">
+            <body>
+            <a href="#main" id="skipToMain">Skip To main content</a>
+
             <Main/>
             <NextScript/>
             </body>
