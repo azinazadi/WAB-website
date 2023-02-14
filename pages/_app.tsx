@@ -23,8 +23,8 @@ const isi = localFont({
 export default function App({Component, pageProps}: AppProps) {
     useEffect(() => {
         function handleScroll() {
-            document.body.classList.toggle("scrolled", document.body.scrollTop > 20 || document.documentElement.scrollTop > 20);
-            document.body.classList.remove("initial");
+            // document.body.classList.toggle("scrolled", document.body.scrollTop > 20 || document.documentElement.scrollTop > 20);
+            // document.body.classList.remove("initial");
         }
 
         window.addEventListener('scroll', handleScroll);
