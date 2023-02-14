@@ -120,7 +120,7 @@ export default function Home() {
                         © WEBAGENTURberlin, alle Rechte vorbehalten
                     </p>
 
-                    <p><a href="/impressum">IMPRESSUM</a> | <a href="#">DATENSCHUTZ</a></p>
+                    <p><Link href="/impressum">IMPRESSUM</Link> | <Link href="#">DATENSCHUTZ</Link></p>
                 </footer>
             </main>
         </>
