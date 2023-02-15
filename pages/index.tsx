@@ -1,13 +1,14 @@
-import Head from 'next/head'
 import Image from 'next/image';
-import ExportedImage from "next-image-export-optimizer";
+// import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import React from "react";
 import MediaText from "components/media_text";
 import refs from "@/public/images/referenzen.png";
 import refsmob from "@/public/images/referenzenmob.png";
 import Nav from "@/components/navi";
-
+import hor from "../public/images/cases/house of resources berlin.png";
+import sb from "../public/images/cases/Seebrücke.png";
+import ndo from "../public/images/cases/neue deutsche organisationen.png"
 
 export default function Home() {
     return (
@@ -28,17 +29,17 @@ export default function Home() {
 
                 <div className="c80 gapped-sections">
                     <MediaText
-                        img="/images/cases/house of resources berlin.png"
+                        img={hor}
                         header="House of resources Berlin"
                         text="Verein Webseite"
                     />
                     <MediaText
-                        img="/images/cases/Seebrücke.png"
+                        img={sb}
                         header="Seebrücke"
                         text="politische Bewegung"
                     />
                     <MediaText
-                        img="/images/cases/neue deutsche organisationen.png"
+                        img={ndo}
                         header="neue deutsche organisationen"
                         text="Verein Webseite"
                     />
