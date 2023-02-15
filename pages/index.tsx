@@ -6,9 +6,9 @@ import MediaText from "components/media_text";
 import refs from "@/public/images/referenzen.png";
 import refsmob from "@/public/images/referenzenmob.png";
 import Nav from "@/components/navi";
-import hor from "../public/images/cases/house of resources berlin.png";
-import sb from "../public/images/cases/Seebrücke.png";
-import ndo from "../public/images/cases/neue deutsche organisationen.png"
+import hor from "@/public/images/cases/house of resources berlin.png";
+import sb from "@/public/images/cases/Seebrücke.png";
+import ndo from "@/public/images/cases/neue deutsche organisationen.png"
 
 export default function Home() {
     return (
